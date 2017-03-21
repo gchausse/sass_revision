@@ -1,0 +1,28 @@
+.navbar-inverse ul:first-child {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+header{
+    text-align: center;
+    background-color: #281400;
+    color: white;
+}
+header button{
+    background-color: #a28f61;
+    border-radius: 10px;
+    color: white;
+    height: 4em;
+    width: 15%;
+    box-shadow: none;
+    border: none;
+}
+header h1{
+    font-size: 5em;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+header h2{
+    font-size: 3em;
+
+}
