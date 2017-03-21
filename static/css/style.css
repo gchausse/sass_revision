@@ -15,7 +15,8 @@ header button {
   height: 4em;
   width: 15%;
   box-shadow: none;
-  border: none; }
+  border: none;
+  margin-bottom: 10em; }
 
 header h1 {
   font-size: 5em;
@@ -23,6 +24,9 @@ header h1 {
   text-transform: uppercase; }
 
 header h2 {
-  font-size: 3em; }
+  font-size: 3em;
+  width: 8em;
+  margin: 0 auto;
+  margin-bottom: 2em; }
 
 /*# sourceMappingURL=style.css.map */
