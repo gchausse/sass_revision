@@ -23,7 +23,7 @@ header {
             }
         }
         li:last-child{
-            margin-left: 37%;
+            margin-left: 41%;
 
         }
     }
@@ -51,10 +51,7 @@ header {
     }
 
 }
-main .row, footer .row {
-    width: 90%;
-    margin: auto;
-}
+
 main {
 
     h3 {
@@ -85,16 +82,17 @@ main {
 
 footer {
     background-color: #0f3e57;
-    display: flex;
-    justify-content: flex-end;
     padding-top: 5em;
+    
     h5 {
         color: white;
         text-transform: capitalize;
         font-size: 2em;
+        margin: auto;
     }
     section ul {
         padding: 0;
+        margin: auto;
     }
     section li {
         color: #b1b1b1;
