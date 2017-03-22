@@ -2,15 +2,20 @@
   margin: 0;
   padding: 0; }
 
-.navbar-inverse ul:first-child {
-  width: 95%;
-  display: flex;
-  justify-content: center; }
-
 header {
   text-align: center;
   background-color: #281400;
   color: white; }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center; }
+    header nav ul li {
+      list-style: none; }
+    header nav ul li:last-child {
+      margin-left: auto; }
   header button {
     background-color: #a28f61;
     border-radius: 10px;

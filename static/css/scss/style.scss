@@ -2,15 +2,26 @@
     margin: 0;
     padding: 0;
 }
-.navbar-inverse ul:first-child {
-    width: 95%;
-    display: flex;
-    justify-content: center;
-}
 header {
     text-align: center;
     background-color: #281400;
     color: white;
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        li {
+            list-style: none;
+
+        }
+        li:last-child{
+            // display: inline-block;
+            margin-left: auto;
+
+        }
+    }
 
     button {
         background-color: #a28f61;
