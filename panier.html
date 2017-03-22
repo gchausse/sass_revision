@@ -27,13 +27,65 @@
                 </div>
             </header>
             <main>
-                <h3>nom du produit</h3>
-                    <img src="http://lorempixel.com/200/150/abstract" alt="image du produit" class="imgproduit">
-                    <article>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <h4>Price: $220.00</h4>
-                        <button type="button" name="button">Ajouter au panier</button>
-                    </article>
+                <h3>Votre panier</h1>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                              <th>Nom du prduit</th>
+                              <th>Prix</th>
+                              <th>Quantité</th>
+                              <th>Prix HT</th>
+                              <th>Prix TTC</th>
+                              <th>Supprimer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td scope="row">produit 1</td>
+                              <td>$220.00</td>
+                              <td>2</td>
+                              <td>connait pas </td>
+                              <td>les taxes</td>
+                              <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                              <td scope="row">produit 3</td>
+                              <td>$180.00</td>
+                              <td>4</td>
+                              <td>connait pas </td>
+                              <td>les taxes</td>
+                              <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                              <td scope="row">produit 7</td>
+                              <td>$90.00</td>
+                              <td>3</td>
+                              <td>connait pas </td>
+                              <td>les taxes</td>
+                              <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                              <th>Nombre d'articles</th>
+                              <th>Prix total HT</th>
+                              <th>Prix total TTC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td scope="row">9</td>
+                              <td>$1430</td>
+                              <td>$4500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </main>
             <footer>
                 <div class="row">
