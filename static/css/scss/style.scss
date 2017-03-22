@@ -15,16 +15,15 @@ header {
         min-height: 5em;
         li {
             list-style: none;
-
             a{
                 color: #b1b1b1;
                 margin: 0 1em;
                 text-transform: capitalize;
+                font-size: 1.5em;
             }
         }
         li:last-child{
-            margin-left: 41%;
-
+            margin-left: 33%;
         }
     }
     button {
@@ -49,11 +48,73 @@ header {
         margin: 0 auto;
         margin-bottom:2em;
     }
+}
+@media screen and (max-width: 1200px) {
+    header {
+        nav ul li:last-child {
+            margin-left: 20%;
+        }
+    }
+}
+@media screen and (max-width: 770px) {
+    header {
+        nav ul{
+            display: flex;
+            flex-direction: column;
+            // justify-content: flex-end;
+            width: 100%;
+            align-items: center;
+            min-height: 5em;
+            li {
+                list-style: none;
+                a{
+                    color: #b1b1b1;
+                    margin: 0 1em;
+                    text-transform: capitalize;
+                    font-size: 1.5em;
+                }
+            }
+            li:last-child{
+                align-self: flex-end;
+                margin-left: 0;
 
+            }
+        }
+        button {
+            width: 60%;
+            box-shadow: none;
+            border: none;
+            margin-bottom: 18em;
+            text-transform: uppercase;
+            background-color: #a28f61;
+            border-radius: 10px;
+            color: white;
+            height: 4em;
+        }
+    }
+    footer{
+        text-align: center;
+    }
 }
 
+.buy {
+    color: #a28f61;
+}
+.onsale {
+    color: #ffcc00;
+}
+.soldout {
+    color: #8d9198;
+}
 main {
-
+    width: 90%;
+    margin:auto;
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     h3 {
         text-align: center;
         text-transform: capitalize;
@@ -68,6 +129,7 @@ main {
     }
     img {
         align-self: stretch;
+        width: 250px;
     }
     h4 {
         text-transform: uppercase;
@@ -78,17 +140,32 @@ main {
     span {
         margin-bottom: 3em;
     }
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: 200px;
+        button {
+            width: 10%;
+        }
+    }.imgproduit{
+        float: left;
+    }
 }
 
 footer {
     background-color: #0f3e57;
     padding-top: 5em;
-    
+    .row {
+        width: 90%;
+        margin: auto;
+    }
     h5 {
         color: white;
         text-transform: capitalize;
         font-size: 2em;
-        margin: auto;
+        margin: 1em auto;
     }
     section ul {
         padding: 0;
@@ -98,6 +175,7 @@ footer {
         color: #b1b1b1;
         list-style: none;
         text-transform: capitalize;
+        margin: 1em 0;
     }
     section li a {
         color: #b1b1b1;
@@ -105,4 +183,13 @@ footer {
     i {
         margin-right: 1em;
     }
+    button {
+        border: 1px solid white;
+        background-color: #0f3e57;
+        text-transform: uppercase;
+        color: white;
+        border-radius: 3px;
+        padding: 0.5em;
+    }
+
 }
