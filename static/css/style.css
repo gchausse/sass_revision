@@ -9,13 +9,18 @@ header {
   header nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    align-items: center; }
+    align-items: center;
+    min-height: 5em; }
     header nav ul li {
       list-style: none; }
+      header nav ul li a {
+        color: #b1b1b1;
+        margin: 0 1em;
+        text-transform: capitalize; }
     header nav ul li:last-child {
-      margin-left: auto; }
+      margin-left: 37%; }
   header button {
     background-color: #a28f61;
     border-radius: 10px;

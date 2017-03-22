@@ -9,20 +9,24 @@ header {
     nav ul{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-end;
         width: 100%;
         align-items: center;
+        min-height: 5em;
         li {
             list-style: none;
 
+            a{
+                color: #b1b1b1;
+                margin: 0 1em;
+                text-transform: capitalize;
+            }
         }
         li:last-child{
-            // display: inline-block;
-            margin-left: auto;
+            margin-left: 37%;
 
         }
     }
-
     button {
         background-color: #a28f61;
         border-radius: 10px;
@@ -45,12 +49,14 @@ header {
         margin: 0 auto;
         margin-bottom:2em;
     }
+
 }
 main .row, footer .row {
     width: 90%;
     margin: auto;
 }
 main {
+
     h3 {
         text-align: center;
         text-transform: capitalize;
